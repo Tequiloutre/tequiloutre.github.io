@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 subtitle: What I'm working on
----
+cover-img: "/assets/img/keyboard_blue.png"
 ---
 
 <a href="/projects/dust-and-aliens"><img src="/assets/projects/dust-and-aliens/cover.png" style="float: right; max-width: 50%;"></a>
@@ -32,5 +32,3 @@ subtitle: What I'm working on
 ## [AI Sorter](/projects/ai-sorter)
 - #### A simple AI character that throw away garbages
 <br clear = "right"/>
-
----
