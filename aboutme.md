@@ -2,7 +2,6 @@
 layout: page
 title: About me
 subtitle: Who am I ?
-cover-img: "/assets/img/ratchet.jpg"
 ---
 
 <img src="/assets/img/Profile_2.jpg" style="float: right; max-width: 40%;">
