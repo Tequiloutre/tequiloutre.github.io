@@ -266,13 +266,15 @@ date_format: "%B %-d, %Y"
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
-markdown: kramdown
-highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
 
+markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -302,7 +304,6 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jemoji
 

@@ -870,10 +870,10 @@ table tr td :last-child {
 /* --- Code blocks --- */
 
 code {
+  font-family: 'Cascadia Code';
   padding: 0.125rem 0.25rem;
   color: #3ba0ef;
-  background-color: rgba(0,0,0,0.03);
-  border: 1px solid rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.2);
   border-radius: 0.25rem;
 }
 
@@ -914,7 +914,7 @@ pre {
   margin: 0;
 }
 .highlight pre.lineno {
-  color: rgba(0,0,0,0.3);
+  color: #abb2bf;
   border-radius: 0;
   border-right: 2px solid #444;
 }
