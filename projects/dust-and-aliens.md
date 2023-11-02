@@ -6,9 +6,9 @@ cover-img: "/assets/projects/dust-and-aliens/cover.png"
 ---
 
 ## Resume
-Dust & Aliens is a Fast FPS Roguelike game where you play as a robot cowboy that kills aliens in a futuristic western arena.
+Dust & Aliens is a Roguelike Fast FPS game where you play as a robot cowboy that kills aliens in a futuristic western arena.
 
-This was our 3rd year school project for which we teamed up in "real conditions" with other progs, desginers, game designers, sound designers, etc... to work on a AAA-type video game.
+This was our 3rd year school project for which we teamed up in "real conditions" with other progs, designers, game designers, sound designers, etc... to work on a AAA-type video game.
 
 We started prototyping the game at the end of our 2nd year on Unreal Engine 4.7 and decided to restart on a new, clean project on UE 5.1 on 3rd year when we were almost sure of the architecture of the game.
 
