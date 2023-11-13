@@ -4,6 +4,7 @@ title: About me
 subtitle: Who am I ?
 ---
 
+<hr>
 <img src="/assets/img/Profile_2.jpg" style="float: right; max-width: 40%;">
 <br>
 # Hi !
