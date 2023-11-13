@@ -2,7 +2,7 @@
 layout: page
 title: UnityTools
 subtitle: Useful tools I've made on Unity Engine
-cover-img: "/assets/projects/unity-tools/cover.png"
+cover-img: "/assets/projects/unity-tools/cover_color.png"
 ---
 
 ## Preview Generator
@@ -14,7 +14,9 @@ Just select some Prefabs & Right Click > Create > Sprite Preview
 [📥Download Package](https://github.com/Tequiloutre/UnityTools/releases/download/preview-generator_v2/PreviewGenerator_v2.unitypackage)  
 [📥Source code](https://github.com/Tequiloutre/UnityTools/tree/main/UnityTools/Assets/Scripts/PreviewGenerator)
 
+<br>
 <hr>
+<br>
 
 ## EditCondition
 EditCondition is a CustomAttribute used to show or hide fields depending on another value  
@@ -30,7 +32,9 @@ ex : The field "value" is only showed when the bool field "condition" is true
 [📥Download Package](https://github.com/Tequiloutre/UnityTools/releases/download/v1/Unity_EditCondition.unitypackage)  
 [📥Source code](https://github.com/Tequiloutre/UnityTools/tree/main/UnityTools/Assets/Scripts/EditCondition)
 
+<br>
 <hr>
+<br>
 
 ## SerializableDictionary
 SDictionary is a Class working as a classic C# Dictionary but it can be serialized and edited in Inspector
