@@ -1,5 +1,6 @@
 /* .highlight  { background: #ffffff; } Dean commented out */
 /* .highlight pre { background-color: #fff; font-size: 16px } */
+.highlight * { color: #abb2bf; }
 .highlight .n { color: #abb2bf; }
 .highlight .p { color: #56b6c2; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
