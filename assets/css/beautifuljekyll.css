@@ -870,7 +870,7 @@ table tr td :last-child {
 /* --- Code blocks --- */
 
 code {
-  font-family: 'Cascadia Code';
+  font-family: 'JetBrains Mono';
   padding: 0.125rem 0.25rem;
   color: #3ba0ef;
   background-color: rgba(0,0,0,0.2);
@@ -878,6 +878,7 @@ code {
 }
 
 pre code {
+  font-family: 'JetBrains Mono';
   padding: 0;
   background-color: transparent;
   border-radius: 0;
