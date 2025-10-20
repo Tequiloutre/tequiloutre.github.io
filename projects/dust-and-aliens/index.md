@@ -2,22 +2,26 @@
 layout: page
 title: Dust & Aliens
 subtitle: A game where there's dust and also aliens
-cover-img: "/assets/projects/dust-and-aliens/cover.png"
+cover-img: "/projects/dust-and-aliens/cover.png"
 ---
 
 ## Resume
 
-<a href="/assets/projects/dust-and-aliens/hud.jpg"><img src="/assets/projects/dust-and-aliens/hud.jpg" style="float: right; max-width: 45%; margin-left: 2%;"></a>
+<a href="/projects/dust-and-aliens/hud.jpg"><img src="/projects/dust-and-aliens/hud.jpg" style="float: right; max-width: 35%; margin-left: 2%;"></a>
 
 Dust & Aliens is a Fast FPS Roguelite set in futuristic western universe.
 
 The player takes on the role of a cowboy who must fight waves of aliens in different arenas.
 
-<a href="/assets/projects/dust-and-aliens/hud.jpg"><img src="/assets/projects/dust-and-aliens/shop.jpg" style="float: left; max-width: 45%; margin-right: 2%;"></a>
+<br>
+
+<a href="/projects/dust-and-aliens/shop.jpg"><img src="/projects/dust-and-aliens/shop.jpg" style="float: left; max-width: 35%; margin-right: 2%;"></a>
 
 The goal of the game is to advance through the various arenas to get the highest score possible.
 
 Use this score to buy upgrades and try to get as far as possible to defeat the game's final boss.
+
+<br>
 
 <p align="center"><a href="https://store.steampowered.com/app/2190230/Dust_and_Aliens/">The game is available on Steam for free</a></p>
 
@@ -42,7 +46,7 @@ The **player** and the **enemies** have many things in common so we decided to m
 
 `DA_Entity` inherit from `APawn` to handle `AController` easily and contains a `DA_MovementComponent`.
 
-<p align="center"><a href="/assets/projects/dust-and-aliens/uml_actors.png"><img src="/assets/projects/dust-and-aliens/uml_actors.png"></a></p>
+<p align="center"><a href="/projects/dust-and-aliens/uml_actors.png"><img src="/projects/dust-and-aliens/uml_actors.png"></a></p>
 
 <br>
 <hr>
@@ -52,7 +56,7 @@ The **player** and the **enemies** have many things in common so we decided to m
 
 As well as the **entities**, the **player** and the **enemies** movements are very similar so they have a **common parent** : `DA_MovementComponent`
 
-<p align="center"><a href="/assets/projects/dust-and-aliens/uml_movements.png"><img src="/assets/projects/dust-and-aliens/uml_movements.png"></a></p>
+<p align="center"><a href="/projects/dust-and-aliens/uml_movements.png"><img src="/projects/dust-and-aliens/uml_movements.png"></a></p>
 
 We used the Unreal's `UMovementComponent` because it already **handles collisions** but decided not to use the `UCharacterMovement` for 2 reasons :
 - it contains many mechanics that we didn't need
@@ -66,7 +70,7 @@ We used the Unreal's `UMovementComponent` because it already **handles collision
 
 Because the **player** had many different movements and the **aliens** will need those same movements to be able to **follow him**, we decided to create a **State Machine** :
 
-| [![uml_movement_fsm](/assets/projects/dust-and-aliens/uml_movement_fsm.png)](/assets/projects/dust-and-aliens/uml_movement_fsm.png) | [![movement_states](/assets/projects/dust-and-aliens/movement_states.png)](/assets/projects/dust-and-aliens/movement_states.png) |
+| [![uml_movement_fsm](/projects/dust-and-aliens/uml_movement_fsm.png)](/projects/dust-and-aliens/uml_movement_fsm.png) | [![movement_states](/projects/dust-and-aliens/movement_states.png)](/projects/dust-and-aliens/movement_states.png) |
 
 Our `DA_MovementComponent` works as a **State Machine**, it has a **TMap** that contains all possible `DA_MovementState` associated with an enum to get it easily.
 

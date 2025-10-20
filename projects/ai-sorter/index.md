@@ -2,7 +2,7 @@
 layout: page
 title: AI Sorter
 subtitle: A simple AI character that throw away garbages
-cover-img: "/assets/projects/ai-sorter/cover.png"
+cover-img: "/projects/ai-sorter/cover.png"
 ---
 
 ## Resume
@@ -19,7 +19,7 @@ I've made this project for 2 reasons :
 
 ## Demo
 <video width="640" height="360" controls>
-    <source src="/assets/projects/ai-sorter/AISorter_Demo.mp4" type="video/mp4">
+    <source src="/projects/ai-sorter/AISorter_Demo.mp4" type="video/mp4">
 </video>
 
 <br>

@@ -20,10 +20,10 @@ author: Youen Corbel
 ###############################################
 
 navbar-links:
-  Home: "/"
+  Projects: "/"
+  # Home: "/"
   About Me: "aboutme"
   CV: "cv"
-  Projects: "projects"
   Contact: "contact"
 
 ################
@@ -138,7 +138,7 @@ navbar-col: "#171d25"
 navbar-text-col: "#FFFFFF"
 navbar-border-col: "#303641"
 page-col: "#24282f"
-text-col: "#FFFFFF"
+text-col: "#EEEEEE"
 link-col: "#2d73ff"
 hover-col: "#3ba0ef"
 footer-col: "#171d25"

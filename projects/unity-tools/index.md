@@ -2,7 +2,7 @@
 layout: page
 title: UnityTools
 subtitle: Useful tools I've made on Unity Engine
-cover-img: "/assets/projects/unity-tools/cover_color.png"
+cover-img: "/projects/unity-tools/cover_color.png"
 ---
 
 ## Preview Generator

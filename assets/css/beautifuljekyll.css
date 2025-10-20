@@ -19,7 +19,7 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Josefin Sans', 'Lora', 'Times New Roman', serif;
+  --body-font: 'Noto Sans', 'Josefin Sans', 'Lora', 'Times New Roman', serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
 }
@@ -32,7 +32,10 @@ html {
 
 body {
   font-family: var(--body-font);
-  font-size: 1.125rem;
+  /* font-size: 1.2rem; */
+  /* font-display: ; */
+  text-align: justify;
+  font-size: 12pt;
   color: var(--text-col);
   position: relative;
   background-color: var(--page-col);
@@ -446,7 +449,7 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.375rem;
+  margin-bottom: 1.75rem;
 }
 footer .list-inline .list-inline-item {
   margin-bottom: 0.5rem;
