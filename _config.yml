@@ -23,7 +23,7 @@ navbar-links:
   Projects: "/"
   # Home: "/"
   About Me: "aboutme"
-  CV: "cv"
+  # CV: "cv"
   Contact: "contact"
 
 ################
