@@ -50,21 +50,22 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
+  linkedin: youen-corbel
+  github: Tequiloutre
+  itchio: tequiloutre
   email: "youencorbel7@gmail.com"
+  spotify: 1163819906
 # rss: true  # remove this line if you don't want to show an RSS link at the bottom
 # facebook: deanattali
-  github: Tequiloutre
 # twitter: daattali
 # patreon: DeanAttali
 # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: youen-corbel
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-  spotify: 1163819906
 # telephone: +33619853748
 #  steam: deanat78
 #  twitch: yourname
@@ -79,7 +80,6 @@ social-network-links:
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
-#  itchio: yourname
 #  untappd: yourname
 #  strava: youruserid
 
